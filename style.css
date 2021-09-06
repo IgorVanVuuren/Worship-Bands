@@ -8,10 +8,10 @@ html {
 }
 
 body {
-    background-image: url('images/Worship-Background.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('images/Worship-Background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(165, 163, 163);
+    color: #f0b48c;
     text-align: center;
     min-height: 100vh;
 }
@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 40px;
     padding: 20px 0 30px 0;
 }
 
@@ -43,24 +43,26 @@ main {
 
 main > a {
     text-decoration: none;
-    color: rgb(253, 253, 253);
+    color: #9fc06c;;
     margin: 0 auto 30px auto;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .home-page {
     text-decoration: none;
-    color: rgb(97, 89, 89);
+    color: #f0e68c;
     font-size: 20px;
     margin: 0 auto 0 auto;
+    font-size: 22px;
 }
 
 .home-page:hover {
-    color: khaki;
+    font-weight: bold;
 }
 
 main > a:hover {
-    color: wheat;
+    color: #9fc06c;
+    font-weight: bold;
 }
 
 section {
@@ -69,7 +71,11 @@ section {
     gap: 20px;
 }
 
+.song-link {
+    font-size: 22px;
+    color: #9fc06c;
+}
+
 .song-link:hover {
-    color: rgb(48, 11, 11);
     font-weight: bold;
 }
