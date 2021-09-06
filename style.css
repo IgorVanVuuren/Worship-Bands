@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/Worship-Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(165, 163, 163);
+    text-align: center;
+    min-height: 100vh;
+}
+
+@media (max-width: 1400px) {
+
+    body {
+        background-position: 76% 50%;
+    }
+
+}
+
+h1 {
+    padding-top: 40px;
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+
+h2 {
+    font-size: 35px;
+    padding: 20px 0 30px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+main > a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    margin: 0 auto 30px auto;
+    font-size: 20px;
+}
+
+.home-page {
+    text-decoration: none;
+    color: rgb(97, 89, 89);
+    font-size: 20px;
+    margin: 0 auto 0 auto;
+}
+
+.home-page:hover {
+    color: khaki;
+}
+
+main > a:hover {
+    color: wheat;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.song-link:hover {
+    color: rgb(48, 11, 11);
+    font-weight: bold;
+}
